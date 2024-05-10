@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* No se necesitan los puntos ni las llaves dentro de las etiquetas <style> en HTML */
+body {
+    margin: 200px;
+    padding: 100;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif; /* Cambia la fuente a Poppins */
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    margin-left:200px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.navbar1 {
+    max-width: auto px;
+    margin: 10px auto;
+    text-align: right;
+    
+}
+
+.navbar2{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/* Estilos para los enlaces en la barra de navegación */
+.navbar1 a {
+    text-decoration: none; /* Elimina el subrayado */
+    margin-right: 10px; /* Agrega un margen entre los enlaces */
+    display: inline-block; /* Hace que los enlaces se muestren en línea horizontalmente */
+    font-size: 10px; /* Tamaño de letra deseado */
+    font-family: 'MiFuentePersonalizada', 'Gill Sans', 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 500px;
+    
+
+
+}
+.navbar2 a {
+    text-decoration: none; /* Elimina el subrayado */
+    margin-right:auto; /* Agrega un margen entre los enlaces */
+    display: inline-block; /* Hace que los enlaces se muestren en línea horizontalmente */
+    font-size: 15px; /* Tamaño de letra deseado */
+    font-family: 'MiFuentePersonalizada', Arial;
+    font-weight: bold
+}
+.breadcrumb {
+    text-align: left;
+    max-width: auto px;
+    margin: 10px auto;
+    font-size: 10px;
+}
+.heade-content  {
+    text-align: left;
+    max-width:  500px;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.computador img {
+    float: right;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 400px; /* Ancho de la imagen */
+    height: 450px; /* Alto de la imagen */
+}
+.btn_enviar {
+    background-color: #e6530a; /* Color de fondo del botón */
+  color: #fefbfb; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Borde redondeado del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+.btn_envi {
+    background-color: #e6530a; /* Color de fondo del botón */
+  color: #fefbfb; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  padding: 20px 60px; /* Espaciado interno del botón */
+  border-radius: 50px; /* Borde redondeado del botón */
+  cursor: pointer ; /* Cambia el cursor al pasar sobre el botón */
+ 
+  }
+.info-1 {
+    text-align: center;
+    font-size: 25px;
+
+}
+.info-2 {
+    border-radius: 5px; 
+    background-color: #f9f5f0;
+    width: 300px; 
+    text-align: center;
+    height: 400px;
+    color: #34167f
+   
+
+}
+.info-3 {
+    border-radius: 5px; 
+    background-color: #f9f5f0;
+    width: 300px; 
+    text-align: center;
+    height: 400px;
+    color: #34167f
+    
+}
+.info-4 {
+    border-radius: 5px; 
+    background-color: #f9f5f0;
+    width: 300px; 
+    text-align: center;
+    height: 400px;
+    color: #34167f
+
+    
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+  }
+  .texto-resolucion {
+    font-size: 10px; /* Define el tamaño de fuente en píxeles */
+  }
+  .computador-1 img {
+    float: right;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 550px; /* Ancho de la imagen */
+    height: 270px; /* Alto de la imagen */
+}
+  .Campo {
+    font-size: 35px
+  }
+  .calidad {
+    font-size: 20px
+  }
+  .abierto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f9f5f0;
+    width: 1000px;
+    color: #34167f;
+    height: 250px;
+  }
+  
+  .abierto h4{
+    text-align: center;
+    font-size: 40px;
+    color: #0e032c;
+
+  }
+  .abierto p {
+    text-align: center;
+    color: #0e032c;
+    font-family: 'MiFuentePersonalizada', Arial;
+
+  }
+  .perfil {
+    float: left;
+    margin-right: 10px;
+    width: 80px; /* Ancho de la imagen */
+    height: 200px; /* Alto de la imagen */
+}
+
+  
+  .este_perfil h5 {
+    color: #e6530a;
+    font-family: 'MiFuentePersonalizada', Arial;
+    text-align: left;
+    font-size: 40px;
+    text-decoration: underline; /*surrayar*/
+    
+
+  }
+  
+  .este_perfil p {
+    color: #0e032;
+    font-family: 'MiFuentePersonalizada', Arial;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    max-width:  500px; 
+    font-size: 15px;
+
+  }
+  .este_perfil li {
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: middle;
+   
+  }
+ .prueba {
+    float: right;
+   
+    
+ }
+ .prueba h6 {
+    color: #0e032c;
+    font-size: 40px;
+    line-height: 1;
+ }
+ 
+ .colored-list li {
+    color: rgb(4, 4, 25);
+  }
+  
+  .colored-list li::marker {
+    color: rgb(201, 94, 7);
+  }
+
+  footer {
+    background-color: hsl(315, 4%, 21%); /* Color de fondo oscuro */
+    color: white; /* Color de texto blanco */
+    padding: 10px; /* Relleno de 20px */
+   
+}
+
+
+
+
+
+
+
+
+
+
+.abajo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.columna {
+    flex: 1; /* Para que cada columna ocupe el mismo espacio */
+    border: 1px solid black; /* Borde para el cuadro */
+    padding: 10px; /* Espacio interior del cuadro */
+    text-align: right; /* Alineación del texto a la derecha */
+}
+
+
+
+.Direcciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.logo a {
+    margin-left: 10px;
+
+}
+
+.abajo h6 {
+    color: #e04e2a;
+    font-size: 30px;
+
+}
+
+
+
+.abajo {
+    
+    padding: 10px; /* Añade un espacio interno */
+    float: right; /* Alinea el contenedor a la derecha */
+    width: 450px; /* Establece el ancho del contenedor */
+    margin-top: 20px; /* Agrega un margen superior */
+    height: 400px;
+    border-radius: 5px;  
+    background-color: #675c50;
+   
+}
+.navbar a {
+  color: rgb(201, 94, 7);
+}
+.Informacion p {
+  color: rgb(201, 94, 7);
+}
+.Informacion a {
+  color: rgb(251, 248, 245);
+  max-width: auto px;
+  font-size: arial;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+
+
+
